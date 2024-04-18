@@ -1,0 +1,56 @@
+/* --------- GENERALES -------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Jersey 20", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ---------------------------------- */
+
+body{
+    background-color: $colorePrin;
+}
+
+h1{
+    font-size: 4.3rem;
+    margin: 3rem;
+}
+
+header{
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+
+p{
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.gioco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
