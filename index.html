@@ -28,15 +28,15 @@
             Il primo che raggiunge i 5 punti vince
         </h2>
         <div class="marcatore">
-            <p class="nome">Giocatore</p>
-            <p class="nome">Computer</p>
+            <p class="giocatore">Giocatore</p>
+            <p class="computer">Computer</p>
             <div class="punti">
-                <p class="">0</p>
-                <p>-</p>
-                <p class="">0</p>
+                <span class="">0</span>
+                <span>-</span>
+                <span class="">0</span>
             </div>
         </div>
-        <div class="scegli" id="scegli">
+        <div id="scegli">
             <p>
                 Scegli la tua arma per il prossimo turno
             </p>
@@ -46,10 +46,21 @@
                 <button class="arma" id="forbice"><img src="./images/tijeras.png"></button>
             </div>
         </div>
+        <div>
+            <p>
+                Hai usato <span class="scelta" id="">Pietra</span> e il computer ha usato <span class="scelta" id="">Forbice</span>
+            </p>
+            <p id="r">
+                Hai guadagnato un punto!
+            </p>
+        </div>
+        <button class="riav" id="">Riavviare il gioco</button>
     </div>
 
 
-
+    <footer class="piedi">
+        <h3>Creator - Matteo Dutto</h3>
+    </footer>
 
 </body>
 </html>
