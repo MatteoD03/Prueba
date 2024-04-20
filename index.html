@@ -24,16 +24,16 @@
 
 
     <div class="gioco">
-        <h2>
+        <h2 id="istruzioni">
             Il primo che raggiunge i 5 punti vince
         </h2>
         <div class="marcatore">
             <p class="giocatore">Giocatore</p>
             <p class="computer">Computer</p>
             <div class="punti">
-                <span class="">0</span>
+                <span id="punti-giocatore">0</span>
                 <span>-</span>
-                <span class="">0</span>
+                <span id="punti-computer">0</span>
             </div>
         </div>
         <div id="scegli">
@@ -46,21 +46,23 @@
                 <button class="arma" id="forbice"><img src="./images/tijeras.png"></button>
             </div>
         </div>
-        <div>
+        <div class="disabled" id="messaggio">
             <p>
-                Hai usato <span class="scelta" id="">Pietra</span> e il computer ha usato <span class="scelta" id="">Forbice</span>
+                Hai usato <span class="scelta" id="scelta-giocatore">Pietra</span> e il computer ha usato <span class="scelta" id="scelta-computer">Forbice</span>
             </p>
-            <p id="r">
+            <p id="vinto">
                 Hai guadagnato un punto!
             </p>
         </div>
-        <button class="riav" id="">Riavviare il gioco</button>
+        <button class="riav disabled" id="riavviare">Riavviare il gioco</button>
     </div>
 
 
     <footer class="piedi">
         <h3>Creator - Matteo Dutto</h3>
     </footer>
+
+    <script src="index.js"></script>
 
 </body>
 </html>

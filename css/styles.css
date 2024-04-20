@@ -116,7 +116,7 @@ header h1 {
   border-radius: 0.5rem;
 }
 
-#r {
+#vinto {
   margin-top: 1rem;
 }
 
@@ -152,6 +152,10 @@ header h1 {
 .piedi h3 {
   font-size: 3.4rem;
   margin: 3rem;
+}
+
+.disabled {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
